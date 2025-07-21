@@ -1,5 +1,9 @@
 # Motivice
 
+## Preview
+
+![Motivice App Screenshot](./preview.png)
+
 Motivice is a simple fullstack app that delivers motivational advice for everyone, every day.
 
 ## Features
