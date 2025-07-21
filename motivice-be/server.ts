@@ -7,6 +7,10 @@ import type { Request, Response } from "express";
 const app = express();
 app.use(cors());
 
+app.get("/", (req: Request, res: Response) => {
+  res.send("Server is Live!");
+});
+
 app.get("/api/quote", async (req: Request, res: Response) => {
   try {
     const response = await axios.get("https://zenquotes.io/api/random");
