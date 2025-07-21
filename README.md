@@ -2,6 +2,10 @@
 
 Motivice is a simple fullstack app that delivers motivational advice for everyone, every day.
 
+## Preview
+
+![Motivice App Screenshot](./preview.png)
+
 ## Features
 
 - Get a random motivational quote with a single click
