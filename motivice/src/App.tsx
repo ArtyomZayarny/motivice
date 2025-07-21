@@ -1,4 +1,5 @@
 import { useState } from "react";
+import type { IMotivice } from "./types";
 
 function App() {
   const [motiviceData, setMotivice] = useState(null);
@@ -9,7 +10,7 @@ function App() {
       const data = await response.json();
       setMotivice(data[0]);
     } catch (error) {
-      console.log(errror);
+      console.log(error);
     }
   };
 
@@ -29,7 +30,7 @@ function App() {
     );
   };
 
-  const motivice = (motivice) => {
+  const motivice = (motivice: IMotivice) => {
     return (
       <>
         <div className="flex flex-col gap-8 bg-amber-200 rounded-md p-8 md:max-w-100">
